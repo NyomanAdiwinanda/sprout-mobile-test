@@ -11,10 +11,8 @@ import {
   ScrollView,
 } from 'react-native';
 import ActionButton from 'react-native-action-button';
-import Icon from 'react-native-vector-icons/Ionicons';
 import Header from '../components/Header.jsx';
 import ContactList from '../components/ContactList.jsx';
-import CircleButton from '../components/CircleButton.jsx';
 
 export default function Home({ navigation }) {
   const data = useSelector((state) => state.data);
